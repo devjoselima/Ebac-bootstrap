@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>EBAC Fitness</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Aulas</a>
+                        </li>
+                    </ul>
+                </nav>
+        </navbar-expand-lg>
+        </div>
+    </header>
+
+
+    <main>
+        <div id="carousel-exemplo" class="carousel slide" data-ride="carousel">
+            <div class="container">
+                <div class="carousel-inner active">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="./img/academia.webp" alt="Primeiro Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/funcional.jpg" alt="Segundo Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/muay-thai.jpg" alt="Terceiro Slide">
+                  </div>
+                  <button data-bs-target="#carousel-exemplo"  class="carousel-control-prev" data-bs-slide="prev"  type="button">
+                      <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button data-bs-target="#carousel-exemplo"  class="carousel-control-next" data-bs-slide="next"  type="button">
+                      <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+        
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+          </div>
+
+          <section>
+              <div class="container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="card " >
+                                <img class="card-img-top" src="./img/academia.webp" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Musculação</h5>
+                                    <p class="card-text">Segunda à sábado</p>
+                                </div>
+
+                                <div class="card-footer">
+                                    <p class="card-text">Horários 06:00 às 23:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12  col-md-6 col-lg-4">
+                            <div class="card ">
+                                <img class="card-img-top" src="./img/funcional.jpg" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Funcional</h5>
+                                    <p class="card-text">Segunda a sexta</p>
+                                </div>
+
+                                <div class="card-footer">
+                                    <p class="card-text">Horários 09:00 às 18:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12  col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/muay-thai.jpg" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Muay thai</h5>
+                                    <p class="card-text">Terça e Quinta</p>
+                                </div>
+
+                                <div class="card-footer">
+                                    <p class="card-text">Horários 09:00 às 10:00 ou 18:00 às 19:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </section>
+    </main>
+
+      <footer class="text-center p-3">&copy; EBAC Fitness - Todos os direitos reservados </footer>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
